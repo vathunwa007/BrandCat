@@ -21,7 +21,7 @@ class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
                         rel="stylesheet"
                     />
-                    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+                    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
                     <link rel="stylesheet" href="/css/fontawesome.css" />
                     <link rel="stylesheet" href="/css/templatemo-style.css" />
@@ -32,8 +32,8 @@ class MyDocument extends Document {
                     <Main />
                     <NextScript />
 
-                    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                    <script src="/jquery/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <script src="/js/isotope.min.js"></script>
     <script src="/js/owl-carousel.js"></script>
