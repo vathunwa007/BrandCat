@@ -1,9 +1,9 @@
 import React from "react";
 
-const CircularProgress = ({ className }) => <div className={`loader ${className}`}>
+const Loading = ({ className }) => <div className={`loader ${className}`}>
   <img src="/images/loading.svg" alt="loader" style={{ height: 60 }} />
 </div>;
-export default CircularProgress;
-CircularProgress.defaultProps = {
+export default Loading;
+Loading.defaultProps = {
   className: ''
 }
