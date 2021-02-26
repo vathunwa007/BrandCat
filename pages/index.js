@@ -1,6 +1,6 @@
 import React from 'react'
 import AsyncComponent from '../util/asyncComponent'
-const Home = AsyncComponent(() => import('../routers/Home'));
+const Home = AsyncComponent(() => import('../Routers/Home'));
 
 const index = () => {
   return (
