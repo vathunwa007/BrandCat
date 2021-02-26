@@ -10,37 +10,14 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <meta charset="utf-8" />
-                    <meta
-                        name="viewport"
-                        content="width=device-width, initial-scale=1, shrink-to-fit=no"
-                    />
-                    <meta name="description" content="" />
-                    <meta name="author" content="" />
-                    <link
-                        href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-                        rel="stylesheet"
-                    />
-                    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
-                    <link rel="stylesheet" href="/css/fontawesome.css" />
-                    <link rel="stylesheet" href="/css/templatemo-style.css" />
-                    <link rel="stylesheet" href="/css/owl.css" />
-                    <link rel="stylesheet" href="/css/lightbox.css" />
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossOrigin="anonymous" />
+                    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@600&display=swap" rel="stylesheet" />
                 </Head>
                 <body>
+
                     <Main />
                     <NextScript />
-
-                    <script src="/jquery/jquery.min.js"></script>
-    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <script src="/js/isotope.min.js"></script>
-    <script src="/js/owl-carousel.js"></script>
-    <script src="/js/lightbox.js"></script>
-    <script src="/js/custom.js"></script>
-    <script src="/js/function.js"></script>
-
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
                 </body>
             </Html>
         )

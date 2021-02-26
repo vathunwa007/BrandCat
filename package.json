@@ -9,9 +9,13 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "antd": "^4.12.3",
+    "axios": "^0.21.1",
     "next": "10.0.7",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-reveal": "^1.2.2",
+    "styled-components": "^5.2.1"
   },
   "engines": {
     "node": "13.9.0",
