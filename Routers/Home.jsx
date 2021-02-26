@@ -16,7 +16,6 @@ export default function Home() {
             <div className="bgtext">
               <h1 styles={{ position: "absolute" }}>ออกแบบเพื่อน้องแมวสุดที่รัก</h1>
             </div>
-
           </section>
         </div>
       </div>
