@@ -9,6 +9,7 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.0.1",
     "antd": "^4.12.3",
     "axios": "^0.21.1",
     "next": "10.0.7",
