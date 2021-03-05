@@ -27,18 +27,43 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        animation-name: cf3FadeInOut;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 1;
+        animation-duration: 5s;
+        animation-direction: alternate;
     }
     
     #bgsection2 {
         background-image: url("https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
-        filter: blur(3px);
-        -webkit-filter: blur(3px);
+        /* filter: blur(3px);
+        -webkit-filter: blur(3px); */
         /* Full height */
         height: 100%;
         /* Center and scale the image nicely */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        animation-name: cf3FadeInOut;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 1;
+        animation-duration: 5s;
+        animation-direction: alternate;
+    }
+    
+    @keyframes cf3FadeInOut {
+        0% {
+            opacity: 0;
+        }
+        45% {
+            opacity: 0.5;
+        }
+        55% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+        }
     }
     
     .navbar {
@@ -87,6 +112,9 @@
         0% {
             opacity: 0;
         }
+        50% {
+            opacity: 0.5;
+        }
         100% {
             opacity: 1;
         }
@@ -96,7 +124,18 @@
         0% {
             opacity: 0;
         }
+        50% {
+            opacity: 0.5;
+        }
         100% {
             opacity: 1;
         }
+    }
+    
+    .loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -50px;
     }
