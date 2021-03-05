@@ -136,7 +136,7 @@ const Profile = () => {
     }
     const Map = compose(
         withProps({
-            googleMapURL: "http://maps.google.com/maps/api/js?key=AIzaSyArK9veHmyKP3QdYMPW1381JzFHqUwDg9U&language=th&region=TH&libraries=geometry,drawing,places",
+            googleMapURL: "https://maps.google.com/maps/api/js?key=AIzaSyArK9veHmyKP3QdYMPW1381JzFHqUwDg9U&language=th&region=TH&libraries=geometry,drawing,places",
             loadingElement: <div style={{ height: `100%` }} />,
             containerElement: <div style={{ height: `400px` }} />,
             mapElement: <div style={{ height: `100%` }} />
